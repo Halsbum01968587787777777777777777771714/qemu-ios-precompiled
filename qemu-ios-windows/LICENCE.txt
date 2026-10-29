@@ -1,0 +1,63 @@
+===============================================================================
+QEMU iPod touch 2G Precompiled Release License & Notices
+===============================================================================
+
+1. QEMU & BUILD COMPONENTS (GNU General Public License v2.0)
+-------------------------------------------------------------------------------
+QEMU is open-source software licensed under the GNU General Public License, 
+version 2 (GPLv2).
+
+This package contains precompiled binaries of QEMU modified for iOS/iPod touch 
+emulation (based on devos50/qemu-ios).
+
+Copyright (C) 2003-2026 Fabrice Bellard and the QEMU Project developers.
+
+This program is free software; you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free Software 
+Foundation; either version 2 of the License, or (at your option) any later 
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT 
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with 
+this program; if not, see <https://www.gnu.org/licenses/gpl-2.0.html>.
+
+
+2. BUNDLED MSYS2 / MINCHW-W64 DYNAMIC LIBRARIES (.DLL)
+-------------------------------------------------------------------------------
+To allow this application to run portably on Windows without requiring a full 
+MSYS2 installation, several open-source dynamic link libraries (.dll) built 
+via MSYS2 / MinGW-w64 are included in this distribution.
+
+These libraries remain the property of their respective authors and are 
+redistributed under their original open-source licenses, which include:
+
+  * MinGW-w64 Runtime & GCC Libraries (libgcc, libwinpthread, etc.):
+    Licensed under the GCC Runtime Library Exception / BSD License.
+  * GLib, GIO, GModule (libglib-2.0, libgio-2.0, etc.):
+    Licensed under the GNU Lesser General Public License (LGPL v2.1+).
+  * Pixman (libpixman-1):
+    Licensed under the MIT License.
+  * Zlib (libz):
+    Licensed under the Zlib License.
+  * OpenSSL / Crypto (libcrypto):
+    Licensed under the Apache License 2.0 / OpenSSL License.
+
+Source code for MSYS2 packages and MinGW-w64 libraries can be obtained from:
+  * MSYS2 Project: https://www.msys2.org/
+  * MinGW-w64 Project: https://www.mingw-w64.org/
+
+
+3. SCRIPTS & PACKAGING
+-------------------------------------------------------------------------------
+The bundled batch scripts (.bat), shell scripts (.sh), and setup configurations 
+provided in this release package are released under the MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files, to deal in the Software
+without restriction, including without limitation the rights to use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software.
+===============================================================================
